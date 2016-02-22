@@ -1,7 +1,7 @@
 
 <!-- Navigation Start -->
 
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-custom navbar-fixed-top {% if page.section-type == "post" or page.section-type == "blog" or page.section-type == "category" or page.section-type == "tag" %}top-nav-collapse{% endif %}" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">

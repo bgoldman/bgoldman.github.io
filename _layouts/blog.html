@@ -6,16 +6,14 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="section-{{ page.section-type }}">
 
     {% include navigation.html %}
 
-    <section id="page" class="container content-section text-center">
+    <section id="page" class="container-fluid content-section text-center blog">
 
-      <div class="row">
+      <div class="container row">
         <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
-
-        {% include swipe-instructions.html %}
 
         {{ page.content | markdownify }}
 
@@ -26,8 +24,6 @@
         </div>
 
         {% include pagination.html %}
-
-        {% include social-buttons.html %}
 
         </div>
       </div>

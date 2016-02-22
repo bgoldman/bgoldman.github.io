@@ -28,12 +28,55 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+strong.subtitle {
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+#post {
+    h1, h2, h3, strong.subtitle {
+        text-transform: none;
+    }
+
+    h1.has-subtitle {
+        margin-bottom: 15px;
+    }
+
+    strong.subtitle, h2, h3 {
+        font-weight: normal;
+    }
+
+    strong.subtitle {
+        color: $primary / 2.5;
+        display: block;
+        font-size: 24px;
+    }
+
+    h2 {
+        color: $primary / 2;
+        font-size: 26px;
+    }
+
+    h3 {
+        color: $primary / 1.75;
+        font-size: 20px;
+    }
+}
+
+#post, section.blog {
+    h4 {
+        a.category {
+            color: inherit;
+        }
+
+        a.tag {
+            font-size: 12px;
+        }
+    }
 }
 
 p {
@@ -88,9 +131,14 @@ a {
         }
     }
     .navbar-brand {
-        font-weight: 700;
         &:focus {
             outline: none;
+        }
+
+        img {
+            border-radius: 100%;
+            position: relative;
+            top: -2px;
         }
     }
     a {
@@ -109,18 +157,18 @@ a {
                 &:hover {
                     /* color: rgba($light, 0.8); */
                     outline: none;
-                    background-color: rgba($light, 0.3);
+                    background-color: rgba($primary, 0.3);
                 }
                 &:focus,
                 &:active {
                     outline: none;
-                    background-color: rgba($light, 0.3);
+                    background-color: rgba($primary, 0.3);
                 }
             }
             &.active {
                 outline: none;
                 a {
-                    background-color: rgba($light, 0.3);
+                    background-color: $primary;
                     &:hover {
                         color: $navbar-color;
                     }
@@ -145,14 +193,15 @@ a {
 }
 
 .intro {
-    display: table;
+    display: flex;
+    flex-direction: column-reverse;
     width: 100%;
     height: auto;
-    padding: 100px 0;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
+                url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
@@ -160,10 +209,11 @@ a {
     background-size: cover;
     -o-background-size: cover;
     .intro-body {
-        display: table-cell;
-        vertical-align: middle;
-        .brand-heading {
-            font-size: 40px;
+        padding-bottom: 15%;
+        padding-top: 100px;
+        .column {
+            justify-content: center;
+            min-height: 300px;
         }
         .intro-text {
             font-size: 18px;
@@ -171,14 +221,15 @@ a {
                 text-shadow: 1px 0 1px #000;
             }
         }
+        a {
+            display: block;
+            margin-top: 50px;
+        }
     }
     @media(min-width:768px) {
         height: 100%;
         padding: 0;
         .intro-body {
-            .brand-heading {
-                font-size: 100px;
-            }
             .intro-text {
                 font-size: 26px;
             }
@@ -221,11 +272,14 @@ a {
 }
 
 .content-section {
-    margin-top: 100px;
+    padding-bottom: 100px;
     padding-top: 100px;
     @media(min-width:767px) {
-        margin-top: 125px;
+        padding-bottom: 125px;
         padding-top: 125px;
+    }
+    .container {
+        margin: auto;
     }
     /* Added in { Personal } for responsive images in posts and section contents */
     img {
@@ -242,7 +296,7 @@ a {
         margin: 0 0 25px;
         font-size: 18px;
         line-height: 1.5;
-        list-style-position: inside;
+        list-style: none;
     }
     pre {
       padding: 0;
@@ -255,6 +309,44 @@ a {
       margin: 0px !important;
       display: inline !important;
       border: 1px solid $dark !important;
+    }
+    &.blog {
+        background: rgba($primary, 0.3);
+    }
+    &#about {
+        ul {
+            line-height: 2;
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+    }
+    &#timeline {
+        background: $primary;
+    }
+    &#contact {
+        background: ($dark + $primary) / 2;
+    }
+    &#post {
+        background: $light;
+        color: $dark;
+        padding-bottom: 0px;
+
+        ol {
+            list-style: decimal outside;
+            text-align: left;
+
+            li {
+                margin-bottom: 20px;
+                margin-left: 20px;
+                padding-left: 20px;
+            }
+        }
+
+        div.author img {
+            border: 1px solid (($dark + $primary) / 2);
+            margin-bottom: 20px;
+            padding: 4px;
+        }
     }
 }
 
@@ -291,7 +383,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: $social-buttons-color;
-    background-color: #222;
+    background-color: $primary;
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -306,22 +398,12 @@ ul.social-buttons li a {
 }
 
 footer {
-    padding: 50px 0;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    text-align: center;
     p {
         margin: 0;
     }
-}
-
-::-moz-selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: rgba($light, 0.2);
-}
-
-::selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: rgba($light, 0.2);
 }
 
 img::selection {
