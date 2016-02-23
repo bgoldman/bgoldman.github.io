@@ -6,7 +6,11 @@
     {% include social-buttons.html %}
 
     <div class="container text-center">
-      <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
+      <p>
+        Copyright &copy;
+        <a href="{{site.baseurl}}">{{ site.author }}</a>
+        {{ site.time | date: "%Y" }}
+    </p>
     </div>
 
 </footer>
