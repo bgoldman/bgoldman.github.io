@@ -7,11 +7,11 @@ category: Lifehacking
 tags: [ 'apps', 'optimization', 'organization', 'productivity', 'software', 'tools' ]
 ---
 
-I'm a big fan of optimizing everything in my life. But especially the things I do or use most often, where the optimizations can be easily noticed. As a software engineer, I spend the overwhelming majority of my workday in front of my computer. This post will focus on optimizations I've made for myself that might be of value to other people.
+I'm a big fan of optimizing everything in my life. But especially the things I do or use most often, where the optimizations can be easily noticed. As a software engineer, I spend the overwhelming majority of my workday in front of my computer. This post will focus on desktop app organization optimizations I've made for myself around that might be of value to other people.
 
-Over the past two years, I've changed most of what I use, and I'm pretty happy with these decisions. Hopefully this can save you some time, or introduce you to a new app that might help you with your daily workflow, or maybe more.
+Over the past two years, I've changed how I organize my desktop apps, and I'm pretty happy with how it's turned out. Hopefully this can save you some time, or introduce you to a new way of organizing your desktop apps that might help you with your daily workflow, and computer usage in general.
 
-This post is part of a series, but this one in particular will focus on organizing apps and desktops, and touch on some useful general-purpose apps and tools. This series is from the perspective of software development; however, if you're not a software developer, most of these ideas are still relevant. Future posts will get into more detail about the hows and whys of these choices, but for the purposes of this post, you can look into the apps I like to use, or you can ignore them and use the same strategies with the apps you already use.
+This post is part of a series, but this one in particular will focus on desktop app organization, and briefly touch on some useful general-purpose apps and tools. Future posts will get into more detail about which apps, and the hows and whys of why they were chosen. This series is written by a software engineer, but most of these ideas are relevant to anybody that uses their computer a lot.
 
 Let's get right into it.
 
@@ -63,7 +63,7 @@ Regardless of which notes app you use, you may benefit from using it a lot to or
 
 This covers tasks, scheduling, and reminders. If you're not using an app to manage your todo list, you could likely benefit from doing so. I think Wunderlist is fantastic for a personal todo list, and other people swear by their todo list apps, so it makes sense for your todo app of choice to be a first-class resource, not something to should be accessing in a browser tab, that's way too much friction. You can tab to and from Wunderlist many times throughout the day, as you complete tasks, add new tasks, reschedule tasks, etc. It's important to be able to get in and get out quick up to dozens of time a day.
 
-### Desktop 7. Music and Utilities
+### Desktop 7: Music and Utilities
 
 The last desktop. It's kind of freeform, and I use this for iTunes, Hermes, and Activity Monitor, but you might have different music and utility apps you want open, or maybe even no music at all. This is the least important desktop, as you can do most music-related tasks using the `F7`-`F12` keys, and you probably don't need to use Activity Monitor very often.
 
