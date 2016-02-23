@@ -35,6 +35,10 @@ strong.subtitle {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+
+    & small {
+        color: $dark + ($light * 0.4);
+    }
 }
 
 #post {
@@ -314,6 +318,8 @@ a {
         background: rgba($primary, 0.3);
     }
     &#about {
+        background: $dark + ($primary * 0.16);
+
         ul {
             line-height: 2;
             margin-left: 0px;
@@ -401,6 +407,13 @@ footer {
     padding-bottom: 150px;
     padding-top: 50px;
     text-align: center;
+    a {
+        color: inherit;
+
+        &:hover {
+            color: $primary;
+        }
+    }
     p {
         margin: 0;
     }
