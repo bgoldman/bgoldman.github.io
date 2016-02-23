@@ -53,7 +53,7 @@ shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
-delete-speed: 2
+delete-speed: -20
 start-delay: 200
 delete-delay: 2000
 lines: # You can add HTML Tags in the Text
@@ -65,18 +65,18 @@ lines: # You can add HTML Tags in the Text
   - text: "What is the definition of salad?^500<br />What makes a food dish a salad or not a salad?"
   - text: "One time on a road trip, the bottom of a bag of food fell out and got everywhere in the car.^500<br />My wife and I had our dog eat it.^500<br />Now that's what I call a win-win situation.^500<br />Good dog, Buddy."
   - text: "Pro-tip: Always get BBQ sauce with fries.^500<br />Way better than ketchup."
-  - text: "If I ever open a pizza restaurant, I'm going to call it Elemeno Pizza.^500<br />Please don't steal my idea."
+  - text: "If I ever open a pizza restaurant,^500 I'm going to call it Elemeno Pizza.^500<br />Please don't steal my idea."
   - text: "One time, I spent over an hour shopping on Amazon.com^500<br />...for the best toilet paper.^500<br />Was it worth it?^500<br />Yes."
   - text: "My wife makes the best BBQ tofu ever.^500<br />You should try it sometime."
   - text: "The only thing that could make that dessert better is pineapple."
   - text: "One time, my wife and I were visiting family in a small town in Colorado, and on the drive there, we were joking that they'd probably want to eat dinner at Cracker Barrel that evening.^500<br />A couple hours later, we were eating dinner at Cracker Barrel."
   - text: "Is a hot dog a sandwich?"
   - text: "Have you ever eaten at Chipotle, and while your burrito was being made, it accidentally exploded?^500<br />And then they tried to put the ingredients that fell in another tortilla?^500<br />I had that happen.^500<br />I paid extra for that guacamole, and now it's stuck to the inside of a tortilla in the trash."
-  - text: "One time, I posted a homemade cat video on Facebook.^500<br />Looking back on it, I have no regrets."
+  - text: "One time, I posted a homemade cat video on Facebook.^500<br />Looking back on it,^500 I have no regrets."
   - text: "Challenge: Name a cracker that is better than a Triscuit."
   - text: "Fettuccine Alfredo is just Mac and Cheese for adults."
   - text: "One time, my wife and I started a short-lived catering company that specialized in vegan jackfruit tacos.^500<br />They were really good."
-  - text: "Okay, last one.^500<br />Promise."
+  - text: "Okay,^500 last one.^500<br />Promise."
   - text: "One time, I engaged no less than thirty people on Facebook in a lively discussion about what the definition of a salad is.^500<br />I consider this to be a great success."
   - text: "My cat likes drinking Soylent, the liquid diet for busy professionals.^500<br />Does this mean my cat is a busy professional?"
   - text: "I think it would be fair to call me a taco enthusiast."
@@ -92,7 +92,7 @@ lines: # You can add HTML Tags in the Text
   - text: "You want the truth?^500<br />You can't handle the truth!^<br />Okay fine, I'll tell you the truth.^<br />I ate the last cookie.^500 I was really hungry.^500 I'm sorry."
   - text: "I only wear toe socks.^500<br />You know, the kind that fit around each toe separately.^500<br />I don't like the way regular socks feel on my feet.^500 These are way better.^500 You should buy some."
   - text: "Challenge. Eat eight kiwi fruits in one sitting.^500<br />I call this The Kiwi Challenge.^500<br />Do it.^500 I've done it once before."
-  - text: "My dog Buddy likes yogurt.^500 I mean, he really likes yogurt.^500 A lot.^500<br />The funny thing is, he hasn't even had that much of it.^500<br />Just if yogurt comes out, there he is, more than other foods.^500<br />We let him lick the spoon."
+  - text: "My dog Buddy likes yogurt.^500 I mean,^250 he really likes yogurt.^500 A lot.^500<br />The funny thing is,^250 he hasn't even had that much of it.^500<br />Just if yogurt comes out,^250 there he is,^250 more than other foods.^500<br />We let him lick the spoon."
 
 me-img: "/img/me.png"
 
