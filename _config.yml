@@ -56,7 +56,7 @@ type-speed: 10
 delete-speed: -20
 start-delay: 500
 delete-delay: 2000
-line2:
+lines:
 # Me
   - text: "Welcome to the best Brandon Goldman site on the internet."
   - text: "My nephew calls me Uncie Bitcoin.^500<br />You can call me Brandon."
