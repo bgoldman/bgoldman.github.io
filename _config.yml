@@ -67,11 +67,11 @@ lines:
 
 # Hope
   - text: "One day, I'm going to fly to the moon.^500<br />I just need to wait until I have an extra five million dollars,^500<br />and for the technology to be reinvented and mass marketed.^500<br />So like next year, maybe the year after?"
-  - text: "Hopefully my next car will be a Tesla.^500<br />I'm holding out for the one that regular people can afford to buy."
+  - text: "I would like to live forever,^500,<br />or at least as long as possible."
+  - text: "I am a cryonicist,^250<br />, and am signed up with Alcor."
 
 # Fun Facts
   - text: "I only wear toe socks.^500<br />You know, the kind that fit around each toe separately.^500<br />I don't like the way regular socks feel on my feet.^500 These are way better.^500 You should buy some."
-  - text: "Sometimes I have a conversation with my cat.^500<br />No, really.^500 I'm serious.^500<br />Like, he'll walk up and meow and then I'll respond with a meow and then he meows back and we just kind of keep going until one of us stops.^500<br />It's pretty awesome.^500 Don't judge me."
 
 # Bad Jokes
   - text: "Keep staring at the screen.^500<br />These are funny.^500<br />At least my wife told me they were."
@@ -90,29 +90,22 @@ lines:
   - text: "Winter is coming."
 
 # One Time
-  - text: "One time I went to the airport and told them I lost my driver license,^500 even though I didn't,^500 just to see what would happen.^500<br />I was still able to board my flight, but the inconvenience wasn't worth the extra time."
   - text: "One time I went vegan cold turkey.^500<br />Literally cold turkey^500 - my last meal as an omnivore was a^250 turkey^250 sandwich.^500<br />Almost a decade later,^500 still vegan."
   - text: 'One time a waiter at a fancy restaurant told me,^500<br />\"Sir,^250 it is my job to know what vegan is\",^500<br />and then proceeded to serve me food that was not vegan.'
-  - text: "One time on a road trip, the bottom of a bag of food fell out and the food got everywhere in the car.^500<br />My wife and I had our dog eat it.^500<br />Now that's what I call a win-win situation.^500<br />Good dog, Buddy."
+  - text: "One time, on a road trip, the bottom of a bag of food fell out and the food got everywhere in the car.^500<br />My wife and I had our dog eat it.^500<br />Now that's what I call a win-win situation.^500<br />Good dog, Buddy."
   - text: "One time, I engaged no less than thirty people on Facebook in a lively discussion about what the definition of a salad is.^500<br />I consider this to be a great success."
   - text: "One time, my wife and I started a short-lived catering company that specialized in vegan jackfruit tacos.^500<br />They were really good."
-  - text: "One time, I posted a homemade cat video on Facebook.^500<br />Looking back on it,^500 I have no regrets."
   - text: "One time, my wife and I were visiting family in a small town in Colorado, and on the drive there, we were joking that they'd probably want to eat dinner at Cracker Barrel that evening.^500<br />A couple hours later, we were eating dinner at Cracker Barrel."
   - text: "One time, I spent over an hour shopping on Amazon.com^500<br />...for the best toilet paper.^500<br />Was it worth it?^500<br />Yes."
 
 # Food
-#  - text: "Fact:^500 Broccoli, broccolini, brussels sprouts, cabbage, cauliflower, collard greens, and kale, believe it or not, are all just different versions of the same plant."
   - text: "Fettuccine Alfredo is just Mac and Cheese for adults."
-  - text: "My cat likes drinking Soylent, the liquid diet for busy professionals.^500<br />Does this mean my cat is a busy professional?"
   - text: "I think it would be fair to call me a vegan grilled cheese sandwich enthusiast."
   - text: "Challenge:^500 Eat eight kiwis in a row. The Kiwi Challenge.^500<br />Will something happen?^500 Will nothing happen?^500<br /> Eat eight kiwis to find out!^500 (I have done this once before)"
   - text: "My dog Buddy likes yogurt.^500 I mean,^250 he really likes yogurt.^500 A lot.^500<br />The funny thing is,^250 he hasn't even had that much of it.^500<br />Just if yogurt comes out,^250 there he is,^250 more than other foods.^500<br />We let him lick the spoon."
-  - text: "I regularly eat four to six bananas per day."
-  - text: "I know that avocados and tomatoes are technically fruits,^500 but come on,^500 everybody really knows they're vegetables."
   - text: "Bananas are actually a type of berry, and banana trees aren't trees, but the world's largest herb.^500<br />Did anybody else know this?"
   - text: "What is the definition of salad?^500<br />What makes a food dish a salad or not a salad?"
   - text: "If I ever open a pizza restaurant,^500 I'm going to call it Elemeno Pizza.^500<br />Please don't steal my idea."
-  - text: "My wife makes the best BBQ tofu ever.^500<br />You should try it sometime."
   - text: "The only thing that could make that dessert better is pineapple."
   - text: "Is a hot dog a sandwich?"
   - text: "Have you ever eaten at Chipotle, and while your burrito was being made, it accidentally exploded?^500<br />And then they tried to put the ingredients that fell in another tortilla?^500<br />I had that happen.^500<br />I paid extra for that guacamole, and now it's stuck to the inside of a tortilla in the trash."
@@ -163,6 +156,18 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/micah.jpg"
+    date: "August 2018"
+    description: "Our first child was born! His name is Micah."
+  - image: "/img/timeline/chester-goodbye.jpg"
+    date: "July 2018"
+    description: "At age 15, after three years with us, our beloved Chester left this world."
+  - image: "/img/timeline/blockfolio.png"
+    date: "May 2017"
+    description: "Joined Blockfolio as Lead Software Architect."
+  - image: "/img/timeline/french-laundry.jpg"
+    date: "June 2016"
+    description: "Turned 30. Celebrated at The French Laundry with Sherri, and also rented out a bar with my twin brother."
   - image: "/img/timeline/chester.jpg"
     date: "March 2015"
     description: "Welcome, Chester! Adopted the sweetest homeless cat off the street. One of friendliest cats we've ever met."
@@ -239,7 +244,7 @@ timeline-img: "/img/me.png"
 ###########
 
 email: "brandon.goldman@gmail.com"
-phone: "626-416-9989"
+#phone: ""
 
 ################
 # Author Blurb #
@@ -262,9 +267,7 @@ social:
   - title: "angellist"
     url: "https://angel.co/begoldman"
   - title: "twitter"
-    url: "https://twitter.com/bgoldman86"
-  - title: "bitcoin"
-    url: "https://coinbase.com/bgoldman"
+    url: "https://twitter.com/brandongodlman"
   - title: "rss"
     url: "/feed.xml"
 
@@ -276,9 +279,9 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
+#  Blog: 'latest-post'
   Contact: 'contact'
+  Timeline: 'timeline'
 
 # Exclusion list from the generated _site
 
