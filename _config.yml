@@ -34,7 +34,7 @@ title: "Brandon Goldman"
 description: "Personal website of Brandon Goldman."
 keywords: "brandon, goldman, personal, jekyll, theme"
 favicon: "/img/favicon.png"
-404-img: "/img/404.jpg"
+error-404-img: "/img/404.jpg"
 
 ################
 # Header layout #
@@ -296,5 +296,5 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
