@@ -37,7 +37,7 @@ strong.subtitle {
     letter-spacing: 1px;
 
     & small {
-        color: $dark + ($light * 0.4);
+        color: mix($dark, $light, 50%);
     }
 }
 
@@ -55,18 +55,18 @@ strong.subtitle {
     }
 
     strong.subtitle {
-        color: $primary / 2.5;
+        color: darken($primary, 30);
         display: block;
         font-size: 24px;
     }
 
     h2 {
-        color: $primary / 2;
+        color: darken($primary, 25);
         font-size: 26px;
     }
 
     h3 {
-        color: $primary / 1.75;
+        color: darken($primary, 21.5);
         font-size: 20px;
     }
 }
@@ -318,7 +318,7 @@ a {
         background: rgba($primary, 0.3);
     }
     &#about {
-        background: $dark + ($primary * 0.16);
+        background: mix($dark, darken($primary, 20));
 
         ul {
             line-height: 2;
@@ -330,7 +330,7 @@ a {
         background: $primary;
     }
     &#contact {
-        background: ($dark + $primary) / 2;
+        background: mix($dark, $primary);
     }
     &#post {
         background: $light;
@@ -349,7 +349,7 @@ a {
         }
 
         div.author img {
-            border: 1px solid (($dark + $primary) / 2);
+            border: 1px solid mix($dark, $primary);
             margin-bottom: 20px;
             padding: 4px;
         }
